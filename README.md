@@ -1,1 +1,19 @@
-# ViveFoveatedRendering
+# Vive Foveated Rendering for Unity
+Copyright 2019, HTC Corporation. All rights reserved.
+
+## Introduction
+Vive Foveated Rendering is a rendering Unity plugin which reduces the rendering work load through cutting
+edge GPU technologies. This plugin supports both fixed and eye-tracked foveated rendering. The developer
+could easily apply foveated rendering to their VR application and adjust shading rate and region
+size for either better performance or better quality, according to their requirements.
+
+## Features
+* Foveated Rendering
+* Variable Shading Rate(VRS)
+* Support Eye Tracking(for VIVE Pro Eye only)
+
+## System Requirements:
+* Operation System: Windows 7 with DirectX 11
+* Graphics Card: NVIDIA Turing based GPUs
+* Driver Version: 430.86
+* (Optional)Eye Tracking: SRanipla v1.0.0.0
