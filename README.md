@@ -15,5 +15,5 @@ size for either better performance or better quality, according to their require
 ## System Requirements:
 * Operation System: Windows 7 with DirectX 11
 * Graphics Card: NVIDIA Turing based GPUs
-* Driver Version: 430.86
+* Driver Version: 430 and later
 * (Optional)Eye Tracking: SRanipla v1.0.0.0
