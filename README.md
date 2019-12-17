@@ -1,5 +1,5 @@
 # Vive Foveated Rendering for Unity
-Copyright 2019, HTC Corporation. All rights reserved.
+Copyright 2020, HTC Corporation. All rights reserved.
 
 ## Introduction
 Vive Foveated Rendering is a rendering Unity plugin which reduces the rendering work load through cutting

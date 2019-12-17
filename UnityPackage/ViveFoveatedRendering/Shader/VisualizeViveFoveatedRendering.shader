@@ -1,4 +1,4 @@
-﻿//========= Copyright 2019, HTC Corporation. All rights reserved. ===========
+﻿//========= Copyright 2020, HTC Corporation. All rights reserved. ===========
 
 Shader "Hidden/VisualizeViveFoveatedRendering"
 {

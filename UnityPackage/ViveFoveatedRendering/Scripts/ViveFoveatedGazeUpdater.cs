@@ -1,4 +1,4 @@
-﻿//========= Copyright 2019, HTC Corporation. All rights reserved. ===========
+﻿//========= Copyright 2020, HTC Corporation. All rights reserved. ===========
 
 using UnityEngine;
 #if USE_SRANIPAL

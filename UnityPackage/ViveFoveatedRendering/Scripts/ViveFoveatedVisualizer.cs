@@ -1,6 +1,7 @@
-﻿//========= Copyright 2019, HTC Corporation. All rights reserved. ===========
+﻿//========= Copyright 2020, HTC Corporation. All rights reserved. ===========
 
 using UnityEngine;
+using UnityEngine.XR;
 using HTC.UnityPlugin.FoveatedRendering;
 #if USE_SRANIPAL
 using ViveSR.anipal.Eye;
@@ -42,7 +43,7 @@ public class ViveFoveatedVisualizer : MonoBehaviour
                 VerboseData data;
                 SRanipal_Eye.GetVerboseData(out data);
                 SingleEyeData targetEyeData;
-                if (UnityEditor.PlayerSettings.stereoRenderingPath == UnityEditor.StereoRenderingPath.MultiPass)
+                if (XRSettings.stereoRenderingMode == XRSettings.StereoRenderingMode.MultiPass)
                 {
                     targetEyeData = thisCamera.stereoActiveEye == Camera.MonoOrStereoscopicEye.Left ? data.left : data.right;
                 }
@@ -91,7 +92,7 @@ public class ViveFoveatedVisualizer : MonoBehaviour
 
             //  For calculation convenience with single pass stereo mode, the x range in UV space is divided by 2.
             Vector4 gazePointRadii = new Vector4(0.005f, 0.005f, 0.0f, 0.0f);
-            if (UnityEditor.PlayerSettings.stereoRenderingPath == UnityEditor.StereoRenderingPath.SinglePass)
+            if (XRSettings.stereoRenderingMode == XRSettings.StereoRenderingMode.SinglePass)
             {
                 gazePointRadii.x *= 0.5f;
                 innerRadii.x *= 0.5f;

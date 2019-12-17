@@ -1,5 +1,5 @@
 # Vive Foveated Rendering plugin for Unity
-© 2019 HTC Corporation. All Rights Reserved.
+© 2020 HTC Corporation. All Rights Reserved.
 
 This document describes a contract between you and HTC Corporation (“HTC”) for the
 Works which refer to this software provided by HTC under the terms of this license.

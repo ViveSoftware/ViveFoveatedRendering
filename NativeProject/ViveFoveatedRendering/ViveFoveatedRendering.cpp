@@ -1,4 +1,4 @@
-//========= Copyright 2019, HTC Corporation. All rights reserved. ===========
+//========= Copyright 2020, HTC Corporation. All rights reserved. ===========
 
 #include <d3d11.h>
 #include ".\Unity\IUnityInterface.h"
@@ -16,7 +16,7 @@
 using namespace std;
 
 static const string PLUGIN_NAME = "ViveFoveatedRendering";
-static const string VERSION = "1.0.0.0";
+static const string VERSION = "1.0.1.0";
 
 typedef void(__stdcall *UNITY_STR_CALLBACK)(const char*);
 static UNITY_STR_CALLBACK s_logger = nullptr;

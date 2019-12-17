@@ -1,4 +1,4 @@
-﻿//========= Copyright 2019, HTC Corporation. All rights reserved. ===========
+﻿//========= Copyright 2020, HTC Corporation. All rights reserved. ===========
 
 using UnityEngine;
 using UnityEngine.Rendering;
@@ -258,13 +258,13 @@ namespace HTC.UnityPlugin.FoveatedRendering
         {
             if (XRSettings.enabled)
             {
-                switch (UnityEditor.PlayerSettings.stereoRenderingPath)
+                switch (XRSettings.stereoRenderingMode)
                 {
-                    case UnityEditor.StereoRenderingPath.MultiPass:
+                    case XRSettings.StereoRenderingMode.MultiPass:
                         renderMode = thisCamera.stereoActiveEye == Camera.MonoOrStereoscopicEye.Left ?
                         RenderMode.RENDER_MODE_LEFT_EYE : RenderMode.RENDER_MODE_RIGHT_EYE;
                         break;
-                    case UnityEditor.StereoRenderingPath.SinglePass:
+                    case XRSettings.StereoRenderingMode.SinglePass:
                         renderMode = RenderMode.RENDER_MODE_STEREO;
                         break;
                     default:
