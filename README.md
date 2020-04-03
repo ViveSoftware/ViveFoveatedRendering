@@ -1,6 +1,9 @@
 # Vive Foveated Rendering for Unity
 Copyright 2020, HTC Corporation. All rights reserved.
 
+# Vive Foveated Rendering for Unreal Engine
+For the Unreal Engine version of this plugin you will need to download and use a custom [modified version](https://github.com/ViveSW/UnrealEngine/tree/VariableRateShading-4.24.2) of the Unreal Engine source code.
+
 ## Introduction
 Vive Foveated Rendering is a rendering Unity plugin which reduces the rendering work load through cutting
 edge GPU technologies. This plugin supports both fixed and eye-tracked foveated rendering. The developer
