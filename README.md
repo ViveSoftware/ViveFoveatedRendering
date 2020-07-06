@@ -9,7 +9,7 @@ size for either better performance or better quality, according to their require
 
 ## Features
 * Foveated Rendering
-* NVIDIA VRWorks Variable Rate Shading (VRS)
+* NVIDIA VRWorks Variable Rate Shading (VRS) and VRS wrapper.
 * Support Eye Tracking(for VIVE Pro Eye only)
 
 ## System Requirements:
